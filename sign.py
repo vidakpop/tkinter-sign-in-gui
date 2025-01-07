@@ -9,6 +9,7 @@ root.geometry('925x500+300+200')
 root.configure(bg='white')
 root.resizable(False,False)
 
+#function for user sign in
 def signin():
     username=user.get()
     password=code.get()
